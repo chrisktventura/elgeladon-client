@@ -54,7 +54,7 @@ async function findByIdPaletas() {
     return;
   }
 
-  document.querySelector(".list-all").style.display = "block"
+  document.querySelector(".list-all").style.display = "block";
   document.querySelector(".paleta-list").style.display = "none";
   const chosenPaletaDiv = document.querySelector("#chosen-paleta");
 
@@ -156,7 +156,6 @@ async function submitPaleta() {
 
   closeModal();
 }
-
 
 function showModalDelete(id) {
   document.querySelector("#overlay-delete").style.display = "flex";
